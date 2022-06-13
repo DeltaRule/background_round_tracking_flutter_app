@@ -4,6 +4,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:location/location.dart';
 import 'package:fl_chart/fl_chart.dart';
+import 'package:vibration/vibration.dart';
 
 void main() {
   runApp(const MyApp());
@@ -130,6 +131,7 @@ class _HomePageState extends State<HomePage> {
             TimeTrackData.add(
                 FlSpot(timeDif.inSeconds.toDouble(), _rounds.toDouble()));
           });
+          Vibration.vibrate(duration: 1000);
         }
       });
       // }

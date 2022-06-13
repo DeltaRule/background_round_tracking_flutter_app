@@ -35,6 +35,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   location: ^4.4.0
   fl_chart: ^0.51.0
+  vibration: ^1.7.4-nullsafety
 
 dev_dependencies:
   flutter_test:

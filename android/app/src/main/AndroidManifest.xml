@@ -2,6 +2,7 @@
     package="com.example.sport_app_fl">
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
     <application
         android:label="sport_app_fl"
         android:name="${applicationName}"
